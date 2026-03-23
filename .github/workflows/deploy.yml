@@ -29,7 +29,7 @@ jobs:
         run: npm run build  # 假设 package.json 中有 build 脚本
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@4
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
