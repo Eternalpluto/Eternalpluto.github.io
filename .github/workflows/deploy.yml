@@ -23,10 +23,13 @@ jobs:
           node-version: '20'  # 指定 Node.js 版本
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Fix Permissions
+        run: chmod +x ./node_modules/.bin/hexo  # 赋予执行权限
 
       - name: Build
-        run: npx hexo generate  # 假设 package.json 中有 build 脚本
+        run: npx run build  # 假设 package.json 中有 build 脚本
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
