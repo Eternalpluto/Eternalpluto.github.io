@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npx run build  # 假设 package.json 中有 build 脚本
+        run: npx hexo generate  # 假设 package.json 中有 build 脚本
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
