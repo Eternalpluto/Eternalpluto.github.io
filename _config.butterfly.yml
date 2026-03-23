@@ -56,23 +56,23 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/3.jpg
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: /img/1.jpg
+default_top_img: /img/2.jpg
 
 # The banner image of index page
-index_img: /img/1.jpg
+index_img: /img/2.jpg
 
 # The banner image of archive page
-archive_img: /img/1.jpg
+archive_img: /img/2.jpg
 
 # Note: tag page, not tags page
-tag_img: /img/1.jpg
+tag_img: /img/2.jpg
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -80,7 +80,7 @@ tag_img: /img/1.jpg
 tag_per_img:
 
 # Note: category page, not categories page
-category_img: /img/1.jpg
+category_img: /img/2.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -299,10 +299,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/Eternalpluto
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 这里是我的博客，记录我的学习和生活。
   card_recent_post:
     enable: true
     # If set 0 will show all
