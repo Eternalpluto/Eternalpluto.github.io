@@ -47,7 +47,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'ww
 
 # --------------------------------------
 # Image Settings
@@ -63,16 +63,16 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: /img/2.jpg
+default_top_img: /img/4.jpg
 
 # The banner image of index page
-index_img: /img/2.jpg
+index_img: /img/4.jpg
 
 # The banner image of archive page
-archive_img: /img/2.jpg
+archive_img: /img/4.jpg
 
 # Note: tag page, not tags page
-tag_img: /img/2.jpg
+tag_img: /img/4.jpg
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -80,7 +80,7 @@ tag_img: /img/2.jpg
 tag_per_img:
 
 # Note: category page, not categories page
-category_img: /img/2.jpg
+category_img: /img/4.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
