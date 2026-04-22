@@ -63,16 +63,16 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: /img/4.jpg
+default_top_img: /img/背景.jpg
 
 # The banner image of index page
-index_img: /img/4.jpg
+index_img: /img/背景.jpg
 
 # The banner image of archive page
-archive_img: /img/4.jpg
+archive_img: /img/背景.jpg
 
 # Note: tag page, not tags page
-tag_img: /img/4.jpg
+tag_img: /img/背景.jpg
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -80,7 +80,7 @@ tag_img: /img/4.jpg
 tag_per_img:
 
 # Note: category page, not categories page
-category_img: /img/4.jpg
+category_img: /img/背景.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -143,7 +143,7 @@ post_meta:
 # The top_img settings of home page
 # default: top img - full screen, site info - middle
 # The position of site info, eg: 300px/300em/300rem/10%
-index_site_info_top:
+index_site_info_top: 70%
 # The height of top_img, eg: 300px/300em/300rem
 index_top_img_height:
 
